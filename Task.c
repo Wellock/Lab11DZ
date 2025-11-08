@@ -32,7 +32,7 @@ task()
 	{
 		printf("A[%i] = ", i);
 		scanf("%i", &A[i]);
-		if (i % 2 == 0 && A[i] > 0)
+		if (i % 2 != 0 && A[i] > 0)
 		{
 			sum += A[i];
 			del++;
